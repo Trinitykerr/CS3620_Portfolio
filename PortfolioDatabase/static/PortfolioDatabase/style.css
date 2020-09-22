@@ -1,0 +1,75 @@
+
+@font-face{
+    font-family: headerFont;
+    src: url('Lato-Black.ttf') format('truetype');
+
+}
+
+@font-face{
+    font-family: bodyFont;
+    src: url('Lato-Regular.ttf') format('truetype');
+
+}
+
+@font-face{
+    font-family:lightFont;
+    src: url('/Lato-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:Anton;
+    src: url('/Anton-Regular.ttf') format('truetype');
+}
+
+
+body{
+   background-color: white;
+    height: 800px;
+   color:black;
+
+
+}
+.navbar navbar-dark bg-dark{
+    background-color: black;
+}
+.navbar a{
+     color:white !important;
+     text-decoration: underline;
+     font-size: 1.5em;
+     font-family: headerFont, Arial, Helvetica, sans-serif;
+}
+
+a.navbar-brand{
+    text-decoration: none;
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: bodyFont, Arial, Helvetica, sans-serif;
+    margin:10px;
+    text-decoration: none;
+}
+
+div{
+    padding: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: bodyFont, Arial, Helvetica, sans-serif;
+}
+
+div.col-md-6 img.card {
+  border: 60px double #482086;
+  border-radius: 500px 500px;
+}
+
+nav.navbar{
+    background-color: black;
+}
+
+a.btn{
+    background-color: rebeccapurple;
+    outline: #482086;
+}
+
